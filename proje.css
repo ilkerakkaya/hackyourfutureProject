@@ -1,0 +1,137 @@
+
+body {
+    background-color: 	rgb(191, 191, 191);
+    font-family: "Courier New", Courier, monospace;
+    left: 400px;
+  }
+
+  
+  
+  /* navbar */
+  .menu {
+    
+    list-style-type: none;
+    margin: 1px;
+    padding: 1px;
+    overflow: hidden;
+    background-color: #333;
+  }
+  ul li {
+    float: left;
+  }
+  ul li a {
+    font-family: fantasy;
+    font-weight: lighter;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  li a:hover,
+  li a:active {
+    background-color: #111;
+  }
+  a img {
+    position: relative;
+    margin: 3px 0px 0px 10px;
+    float: left;
+    width: 95px;
+    height: 118px;
+  }
+  
+  #page-pos {
+    border-style: ridge;
+    border-width: 5px;
+    border-color:black;
+    width: 1090px;
+    height: auto;
+  }
+  
+  .header{
+    margin: 1px;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: rgb(207, 186, 178);
+    background-color: white;
+    color: rgb(216, 138, 12);
+    padding: 15px;
+    height: 100%;
+    width: 1060px;
+    line-height: 20px;
+    background: #a88a8a
+      url(https://centralaz.edu/wp-content/uploads/2017/08/CIS_Comp_Prog_Main_507378942-724x321.jpg)
+      no-repeat right;
+    background-size: 100% 100%;
+
+  }
+  .footer {
+    margin: 1px;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: rgb(207, 186, 178);
+    background-color: white;
+    color: rgb(216, 138, 12);
+    padding: 15px;
+    height: 100%;
+    width: 1060px;
+    line-height: 20px;
+    background: #D8DB19
+      url(https://i.vimeocdn.com/video/691078358.webp?mw=1100&mh=617&q=70)
+      no-repeat right;
+    background-size: 100% 100%;
+  }
+  
+  .frame-pic {
+    width: 120px;
+    height: 120px;
+    
+    
+    justify-content: center;
+  }
+  .frame-pic:hover {
+    background-color: gray;
+  }
+
+  .media-item {
+    box-shadow: 1px 1px 3px 1px #000000;
+    position: relative;
+    float: right;
+    width: 340px;
+    height: 170px;
+    margin: 20px 10px 0px 10px;
+  }
+  .description {
+    text-align: justify;
+    font-size: 12px;
+   
+  }
+  .description p {
+    padding-right: 5px;
+  }
+  .side-menu {
+    top: 187px;
+    font-size: 13px;
+    position: absolute;
+    border: 1px solid #eeee;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: coral;
+    background-color: orange;
+    text-align: justify;
+    width: 270px;
+    height: 965px;
+  }
+  ol li {
+    margin-left: -10px;
+    padding: 5px;
+  }
+  
+  span {
+    font-family: fantasy;
+    font-size: 25px;
+    float: left;
+    padding-right: 5px;
+    margin-bottom: -3px;
+  }
+  
